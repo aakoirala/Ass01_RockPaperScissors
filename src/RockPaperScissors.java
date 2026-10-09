@@ -12,12 +12,12 @@ public class RockPaperScissors {
         String paper = "P";
         String scissors = "S";
 
-        boolean validPlayerA = false;
-        boolean validPlayerB = false;
         boolean validCont = false;
-        boolean validContInput = false;
 
         do {
+            boolean validPlayerA = false;
+            boolean validPlayerB = false;
+            boolean validContInput = false;
             do {
                 System.out.println("Player A -- Choose Rock (R), Paper (P), or Scissors (S): ");
 
